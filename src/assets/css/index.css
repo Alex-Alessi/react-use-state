@@ -1,6 +1,44 @@
+ul {
+  list-style-type: none;
+}
+
 /* #HEADER */
 header {
   background-color: rgb(248 249 250);
 }
 
+header .container {
+  height: 50px;
+}
+
 /* #MAIN */
+
+main ul {
+  display: flex;
+  justify-content: center;
+}
+
+main li {
+  margin-right: 10px;
+}
+
+main .card {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 7px;
+  background-color: hsl(215.75deg 98.36% 52.16%);
+  border-color: transparent;
+  color: white;
+}
+
+.warning {
+  background-color: hsl(45deg 100% 51.37%);
+  color: black;
+}
+
+.card {
+  height: 100px;
+}

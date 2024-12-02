@@ -2,7 +2,8 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 // Import all of Bootstrap's JS
-import "bootstrap/dist/css/bootstrap-reboot.css";
+import "bootstrap/dist/css/bootstrap-reboot.min.css";
+import "bootstrap/dist/css/bootstrap-utilities.min.css";
 import * as bootstrap from "bootstrap";
 
 import "./assets/css/index.css";
