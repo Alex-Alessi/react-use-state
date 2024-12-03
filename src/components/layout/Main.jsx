@@ -50,7 +50,10 @@ export default function () {
       <ul>
         {languages.map((language) => (
           <li key={language.id}>
-            <button onClick={() => buttonClick(language)}>
+            <button
+              onClick={() => buttonClick(language)}
+              className={linguaggioAttuale.id === language.id ? "warning" : ""}
+            >
               {language.title}
             </button>
           </li>
