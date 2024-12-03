@@ -23,8 +23,16 @@ main li {
 }
 
 main .card {
-  display: flex;
-  justify-content: center;
+  border: 1px solid rgb(213 213 213);
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 600px;
+  margin: 20px auto;
+  height: auto;
+}
+
+main .card p {
+  margin: 0;
 }
 
 button {
